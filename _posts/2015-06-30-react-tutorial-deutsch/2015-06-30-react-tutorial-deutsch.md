@@ -270,6 +270,7 @@ var App = React.createClass({
         <CollapsibleBlock key={slug} book={that.props.books[slug]}
                           toggleHandler={that.toggleHandler}
                           toggleState={that.state[slug]} />
+      );
     });
   },
 
